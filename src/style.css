@@ -92,6 +92,9 @@ gap: 30px;
    .footer {
    flex-direction: column;
    }
-   
 }
- 
+@media (max-width: 510px) {
+    .nav-bar-head {
+        display: none;
+    }
+}
