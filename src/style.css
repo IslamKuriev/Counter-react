@@ -1,0 +1,102 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+body {
+    background: #FFFFFF;
+    font-family: gilroy-bold;
+}
+.header-container {
+padding: 1.1%;
+display: flex;
+justify-content: space-around;
+}
+.nav-bar-head {
+    color: #003399;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 21px;
+   font-weight: 500;
+}
+.number-main {
+    font-size: 280px;
+    line-height: 338px;
+    color: #F27C0F;
+    text-align: center;
+}
+.btn-main {
+justify-content: center;
+display:flex;
+gap: 30px;
+}
+.btn-plus {
+    width: 14%;
+    color: #FFFFFF;
+    font-size: 21px;
+    background-color: #003399;
+    padding: 13px;
+    border: none;
+    border-radius: 4px;
+}
+.btn-minus {
+    width: 14%;
+    color: #FFFFFF;
+    font-size: 21px;
+    background-color: #F27C0F;
+    padding: 13px;
+    border: none;
+    border-radius: 4px;
+}
+.btn-close {
+    width: 14%;
+    color: #000000;
+    font-size: 21px;
+    background-color: #E5E5E5;
+    padding: 13px;
+    border: none;
+    border-radius: 4px;
+}
+.footer{ 
+    width: 50%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 10.1%;
+}
+.foot-svg{ 
+    margin-bottom: 5px;
+}
+.nav-bar-footer {
+    color: #00000080;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 21px;
+}
+.copyright {
+    color:#00000080
+}
+@media  (max-width: 1200px) {
+   .btn-main {
+    flex-direction: column;
+    align-items:center;
+   }
+   .btn-close {
+    width: auto;
+   }
+   .btn-minus {
+    width: auto;
+   }
+   .btn-plus {
+    width: auto;
+   }
+   .footer {
+   flex-direction: column;
+   }
+   
+}
+@media  (max-width: 830px) {
+    body {
+        
+    }
+ }
+ 
