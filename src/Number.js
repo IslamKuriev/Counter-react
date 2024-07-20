@@ -1,13 +1,13 @@
 import React from 'react';
 
 
-const Number = (props) => {
+const Number = ({number}) => {
     return (
         <div  className='number-main'>
-            {props.number}
+            {number}
         </div>
     );
 };
 
-export default Number ;
+export default Number;
 
