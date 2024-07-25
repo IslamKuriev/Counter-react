@@ -34,7 +34,7 @@ const MainContent = () => {
       <Number setCounter={setCounter} number={counter} />
       <Buttons
         clickPlus={handleClickPlus}
-        clickMin={counter ? handleClickMin : null}
+        clickMin={counter === true ? handleClickMin : null}
         clickClose={handleClickClose}
       />
     </>
