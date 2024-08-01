@@ -5,7 +5,7 @@ const FooterMenu = () => {
        <ul className='nav-bar-footer'>
         <li>Партнерам|</li>
         <li>Разработчикам|</li>
-        <li>Вакансии.</li>
+        <li>Вакансии</li>
        </ul>
     );
 };
